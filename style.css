@@ -1,3 +1,4 @@
+
 :root {
     --topBarColor: #6437cc;
 }
@@ -7,6 +8,7 @@
     padding: 0;
     font-family: 'Nunito', sans-serif;
     font-size: 20px;
+    overflow-x: hidden;
 }
 
 .topBar {
@@ -31,7 +33,6 @@
 .content {
     margin: auto;
     max-width: 99.0rem;
-    /* max-width: 990px; */
     padding: 4.0rem;
     margin: 10.0rem;
 }
@@ -50,7 +51,6 @@ h2 {
 }
 
 .card {
-    /* border: 1px solid; */
     padding: 70px 100px;
     margin-top: 50px;
     border-radius: 20px;
@@ -101,4 +101,68 @@ footer {
     text-align: center;
     font-weight: bold;
     padding: 50px;
+}
+
+@media screen and (max-width: 840px) {
+    .card {
+        overflow: hidden;
+    }
+    .content h1 {
+        font-size: 30px;
+        text-align: center;
+    }
+    .content {
+        margin-left: 0;
+        margin-top: 0;
+        width: 36.0rem;
+        overflow-x: hidden;
+        
+    }
+    .card:hover {
+        box-shadow: none;
+    }
+}
+
+@media screen and (max-width: 750px) {
+    .content h1 {
+        font-size: 30px;
+        text-align: center;
+    }
+    .content {
+        margin-left: 0;
+        margin-top: 0;
+        width: 26.0rem;
+        overflow-x: hidden;
+    }
+}
+@media screen and (max-width: 620px) {
+    .content h1 {
+        font-size: 30px;
+        text-align: center;
+    }
+    .content {
+        margin-left: 0;
+        margin-top: 0;
+        margin-right: 0;
+        padding-right: 0;
+        padding-left: 01.0rem;
+        width: 28.0rem;
+        overflow-x: hidden;
+    }
+}
+
+@media screen and (max-width: 500x) {
+    .content h1 {
+        font-size: 30px;
+        text-align: center;
+        max-width: 1px;
+    }
+    .content {
+        margin-left: 0;
+        margin-top: 0;
+        margin-right: 0;
+        padding-left: 0;
+        max-width: 1px;
+        overflow-x: hidden;
+    }
 }
