@@ -151,20 +151,20 @@ footer {
     }
 }
 
-@media screen and (max-width: 500px) {
+@media screen and (max-width: 320px) {
     #logoImage {
-        width: 400px;
+        width: 320px;
     }
-    .content h1 {
+    h1 {
         font-size: 30px;
         text-align: center;
-        margin-left: -70px;
+        margin-left: -180px;
     }
     .content {
         margin-left: -50px;
         margin-top: 0;
-        margin-right: 0;
-        padding-left: 0;
+        margin-right: 10px;
+        padding-left: -10px;
         margin-bottom: -1px;
         overflow-x: hidden;
     }
@@ -173,11 +173,12 @@ footer {
     .prep,
     h2 {
         margin-right: 30px;
-        margin-left: -20px;
+        margin-left: -30px;
     }
     p {
-        margin-left: 2px;
         text-align: justify;
+        margin-left: -10px;
+        padding-right: 95px;
     }
     .card {
         margin-bottom: -10px;
@@ -186,13 +187,22 @@ footer {
     .ingr {
         margin-bottom: -20px;
     }
+    .ingrList {
+        margin-bottom: 30px;
+        margin-left: -10px;
+        padding-right: 65px;
+    }
     .prep {
         margin-top: -100px;
     }
+    ol {
+        margin-left: -10px;
+        padding-right: 95px;
+        border-spacing: 90px;
+    }
     .instruc {
-        margin-top: -70px;
+        margin-top: -80px;
+
     }
-    .ingrList {
-        margin-bottom: 30px;
-    }
+
 }
