@@ -151,18 +151,48 @@ footer {
     }
 }
 
-@media screen and (max-width: 500x) {
+@media screen and (max-width: 500px) {
+    #logoImage {
+        width: 400px;
+    }
     .content h1 {
         font-size: 30px;
         text-align: center;
-        max-width: 1px;
+        margin-left: -70px;
     }
     .content {
-        margin-left: 0;
+        margin-left: -50px;
         margin-top: 0;
         margin-right: 0;
         padding-left: 0;
-        max-width: 1px;
+        margin-bottom: -1px;
         overflow-x: hidden;
+    }
+    .card,
+    .ingr,
+    .prep,
+    h2 {
+        margin-right: 30px;
+        margin-left: -20px;
+    }
+    p {
+        margin-left: 2px;
+        text-align: justify;
+    }
+    .card {
+        margin-bottom: -10px;
+
+    }
+    .ingr {
+        margin-bottom: -20px;
+    }
+    .prep {
+        margin-top: -100px;
+    }
+    .instruc {
+        margin-top: -70px;
+    }
+    .ingrList {
+        margin-bottom: 30px;
     }
 }
