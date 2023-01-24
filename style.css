@@ -30,19 +30,14 @@
     width: 100%
 }
 
-.content {
-    margin: auto;
-    max-width: 99.0rem;
-    padding: 4.0rem;
-    margin: 10.0rem;
-}
-
 h1, h2, h3, h4, h5, h6 {
     color: var(--topBarColor);
 }
 
 h1 {
     font-size: 48px;
+    text-align: center;
+    margin-top: 50px;
 }
 
 h2 {
@@ -50,34 +45,50 @@ h2 {
     margin-bottom: 40px;
 }
 
-.card {
+.cardIngr {
     padding: 70px 100px;
     margin-top: 50px;
     border-radius: 20px;
+    width: 50%;
+    margin-left: 20vw;
+}
+.cardPrep {
+    padding: 70px 100px;
+    margin-top: 50px;
+    border-radius: 20px;
+    width: 50%;
+    margin-left: 20vw;
+}
+.cardInstruc {
+    padding: 70px 100px;
+    margin-top: 50px;
+    border-radius: 20px;
+    width: 50%;
+    margin-left: 20vw;
+    margin-bottom: 60px;
 }
 
-.card:hover {
+.cardIngr:hover {
     box-shadow: 8px 8px 15px 12px rgba(205, 205, 205, 0.50);
 }
 
-.ingr {
+.cardPrep:hover {
+    box-shadow: 8px 8px 15px 12px rgba(205, 205, 205, 0.50);
+}
+
+.cardInstruc:hover {
+    box-shadow: 8px 8px 15px 12px rgba(205, 205, 205, 0.50);
+}
+
+
+.cardIngr {
     cursor: url('./assets/cursor-ingr.png'), default;
 }
 
-.prep {
+.cardPrep {
     cursor: url('./assets/cursor-prep.png'), default;
 }
 
-a {
-    text-decoration: none;
-}
-
-.buyButton {
-    color: var(--topBarColor);
-    padding: 16px;
-    border-radius: 20px;
-    color: white;
-}
 
 li {
     margin-bottom: 14px;
@@ -103,53 +114,26 @@ footer {
     padding: 50px;
 }
 
-@media screen and (max-width: 840px) {
-    .card {
-        overflow: hidden;
-    }
-    .content h1 {
+/* @media screen and (max-width: 840px) {
+    h1 {
         font-size: 30px;
         text-align: center;
-    }
-    .content {
-        margin-left: 0;
-        margin-top: 0;
-        width: 36.0rem;
-        overflow-x: hidden;
-        
-    }
-    .card:hover {
-        box-shadow: none;
     }
 }
 
 @media screen and (max-width: 750px) {
-    .content h1 {
+    h1 {
         font-size: 30px;
         text-align: center;
-    }
-    .content {
-        margin-left: 0;
-        margin-top: 0;
-        width: 26.0rem;
-        overflow-x: hidden;
     }
 }
 @media screen and (max-width: 620px) {
-    .content h1 {
+h1 {
         font-size: 30px;
         text-align: center;
     }
-    .content {
-        margin-left: 0;
-        margin-top: 0;
-        margin-right: 0;
-        padding-right: 0;
-        padding-left: 01.0rem;
-        width: 28.0rem;
-        overflow-x: hidden;
-    }
-}
+
+} */
 
 @media screen and (max-width: 320px) {
     #logoImage {
@@ -158,51 +142,37 @@ footer {
     h1 {
         font-size: 30px;
         text-align: center;
-        margin-left: -180px;
+        margin-top: 50px;
     }
-    .content {
-        margin-left: -50px;
-        margin-top: 0;
-        margin-right: 10px;
-        padding-left: -10px;
-        margin-bottom: -1px;
-        overflow-x: hidden;
-    }
-    .card,
-    .ingr,
-    .prep,
     h2 {
-        margin-right: 30px;
-        margin-left: -30px;
+        margin-left: 20px;
+    }   
+    .cardIngr {
+        padding-left: 0;
+        padding-right: 0;
+        margin-left: 8px;
+        margin-right: 0;
+        width: 320px;   
     }
-    p {
-        text-align: justify;
-        margin-left: -10px;
-        padding-right: 95px;
+    .cardPrep {
+        padding-left: 0;
+        padding-right: 0;
+        margin-top: -50px;
+        margin-left: 8px;
+        margin-right: 0;
+        width: 320px;   
     }
-    .card {
-        margin-bottom: -10px;
-
+    .cardInstruc {
+        padding-left: 0;
+        padding-right: 0;
+        margin-top: -10px;
+        margin-left: 2px;
+        margin-right: 0;
+        width: 320px;   
     }
-    .ingr {
-        margin-bottom: -20px;
+    .cardPrep li {
+        word-spacing: 8px;
+        margin-top: 30px;
+        margin-bottom: 1px;
     }
-    .ingrList {
-        margin-bottom: 30px;
-        margin-left: -10px;
-        padding-right: 65px;
-    }
-    .prep {
-        margin-top: -100px;
-    }
-    ol {
-        margin-left: -10px;
-        padding-right: 95px;
-        border-spacing: 90px;
-    }
-    .instruc {
-        margin-top: -80px;
-
-    }
-
 }
