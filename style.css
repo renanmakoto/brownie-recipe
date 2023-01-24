@@ -114,33 +114,124 @@ footer {
     padding: 50px;
 }
 
-/* @media screen and (max-width: 840px) {
-    h1 {
-        font-size: 30px;
-        text-align: center;
-    }
-}
-
-@media screen and (max-width: 750px) {
-    h1 {
-        font-size: 30px;
-        text-align: center;
-    }
-}
-@media screen and (max-width: 620px) {
-h1 {
-        font-size: 30px;
-        text-align: center;
-    }
-
-} */
-
-@media screen and (max-width: 320px) {
+@media screen and (max-width: 600px) {
 
     #logoImage {
-        width: 100px;
+        width: 400px;
         text-align: left;
     }
+    #header {
+        background-image: url("./assets/header-1.jpg");
+        background-size: cover;
+        background-position: center;
+        height: 150px;
+        max-width: 600px;
+    }
+
+    h1 {
+        font-size: 30px;
+        text-align: center;
+        margin-top: 50px;
+    }
+    h2 {
+        margin-left: 10px;
+    }   
+    .cardIngr {
+        padding-left: 0;
+        padding-right: 0;
+        margin-left: 0;
+        margin-right: 0;
+        width: 100%;   
+    }
+    .cardPrep {
+        padding-left: 0;
+        padding-right: 0;
+        margin-top: -50px;
+        margin-left: 8px;
+        margin-right: 0;
+        width: 100%;   
+    }
+    .cardInstruc {
+        padding-left: 0;
+        padding-right: 0;
+        margin-top: -10px;
+        margin-left: 2px;
+        margin-right: 0;
+        width: 100%;   
+    }
+    .cardPrep li {
+        word-spacing: 8px;
+        margin-top: 30px;
+        margin-bottom: 1px;
+    }
+}
+
+@media screen and (max-width: 450px) {
+
+    #logoImage {
+        width: 400px;
+        text-align: left;
+    }
+    #header {
+        background-image: url("./assets/header-1.jpg");
+        background-size: cover;
+        background-position: center;
+        height: 150px;
+        max-width: 450px;
+    }
+
+    h1 {
+        font-size: 30px;
+        text-align: center;
+        margin-top: 50px;
+    }
+    h2 {
+        margin-left: 10px;
+    }   
+    .cardIngr {
+        padding-left: 0;
+        padding-right: 0;
+        margin-left: 8px;
+        margin-right: 0;
+        width: 320px;   
+    }
+    .cardPrep {
+        padding-left: 0;
+        padding-right: 0;
+        margin-top: -50px;
+        margin-left: 8px;
+        margin-right: 0;
+        width: 320px;   
+    }
+    .cardInstruc {
+        padding-left: 0;
+        padding-right: 0;
+        margin-top: -10px;
+        margin-left: 2px;
+        margin-right: 0;
+        width: 320px;   
+    }
+    .cardPrep li {
+        word-spacing: 8px;
+        margin-top: 30px;
+        margin-bottom: 1px;
+    }
+}
+
+@media screen and (max-width: 380px) {
+
+    #logoImage {
+        width: 300px;
+        text-align: left;
+    }
+    #header {
+        background-image: url("./assets/header-1.jpg");
+        background-size: cover;
+        background-position: center;
+        height: 150px;
+        max-width: 450px;
+    }
+
     h1 {
         font-size: 30px;
         text-align: center;
