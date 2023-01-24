@@ -18,7 +18,7 @@
 
 #logoImage {
     margin: 40px;
-    width: 500px;
+    width: 350px;
     margin: 3px;
 }
 
@@ -48,22 +48,24 @@ h2 {
 .cardIngr {
     padding: 70px 100px;
     margin-top: 50px;
+    margin-left: 20px;
+    margin-right: 100px;
     border-radius: 20px;
-    width: 50%;
-    margin-left: 20vw;
+    width: 100%;
+    /* margin-left: 20vw; */
 }
 .cardPrep {
     padding: 70px 100px;
     margin-top: 50px;
     border-radius: 20px;
-    width: 50%;
+    width: 100%;
     margin-left: 20vw;
 }
 .cardInstruc {
     padding: 70px 100px;
     margin-top: 50px;
     border-radius: 20px;
-    width: 50%;
+    width: 100%;
     margin-left: 20vw;
     margin-bottom: 60px;
 }
@@ -139,6 +141,7 @@ h1 {
 
     #logoImage {
         width: 200px;
+        text-align: left;
     }
     h1 {
         font-size: 30px;
@@ -151,7 +154,7 @@ h1 {
     .cardIngr {
         padding-left: 0;
         padding-right: 0;
-        margin-left: -8px;
+        margin-left: 8px;
         margin-right: 0;
         width: 320px;   
     }
@@ -159,7 +162,7 @@ h1 {
         padding-left: 0;
         padding-right: 0;
         margin-top: -50px;
-        margin-left: -8px;
+        margin-left: 8px;
         margin-right: 0;
         width: 320px;   
     }
@@ -167,7 +170,7 @@ h1 {
         padding-left: 0;
         padding-right: 0;
         margin-top: -10px;
-        margin-left: -2px;
+        margin-left: 2px;
         margin-right: 0;
         width: 320px;   
     }
