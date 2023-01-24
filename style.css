@@ -18,7 +18,7 @@
 
 #logoImage {
     margin: 40px;
-    width: 350px;
+    width: 500px;
     margin: 3px;
 }
 
@@ -48,24 +48,22 @@ h2 {
 .cardIngr {
     padding: 70px 100px;
     margin-top: 50px;
-    margin-left: 20px;
-    margin-right: 100px;
     border-radius: 20px;
-    width: 100%;
-    /* margin-left: 20vw; */
+    width: 50%;
+    margin-left: 20vw;
 }
 .cardPrep {
     padding: 70px 100px;
     margin-top: 50px;
     border-radius: 20px;
-    width: 100%;
+    width: 50%;
     margin-left: 20vw;
 }
 .cardInstruc {
     padding: 70px 100px;
     margin-top: 50px;
     border-radius: 20px;
-    width: 100%;
+    width: 50%;
     margin-left: 20vw;
     margin-bottom: 60px;
 }
@@ -140,7 +138,7 @@ h1 {
 @media screen and (max-width: 320px) {
 
     #logoImage {
-        width: 200px;
+        width: 100px;
         text-align: left;
     }
     h1 {
