@@ -1,10 +1,10 @@
-<h1>brownie-recipe</h1>
+<h1 align="center">brownie-recipe</h1>
 
-<p>Just a landing page using HTML and CSS for publishing my brownie recipe. So it can accessed wherever I am. Feel free to try this recipe.</p>
+<p align="center">Just a landing page using HTML and CSS for publishing my brownie recipe. So it can accessed wherever I am. Feel free to try this recipe.</p>
 
-<p>You may access the page by clicking on the link below:</p>
+<p align="center">You may access the page by clicking on the link below:</p>
 
-<p>https://renanmakoto.github.io/brownie-recipe/</p>
+<p align="center">https://renanmakoto.github.io/brownie-recipe/</p>
 
 
 <div align="center">  
